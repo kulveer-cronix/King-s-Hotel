@@ -10,6 +10,7 @@
 }
 body{
     scroll-behavior: smooth;
+    
     font-family: Montserrat;
     
 }
@@ -38,6 +39,9 @@ text-transform: capitalize;
 
 
 }
+section{
+    position: relative;
+}
 h2{
 font-size: 2rem;
 text-align: center;
@@ -49,7 +53,7 @@ nav{
     z-index: 9999;
     .logo{
         display: flex;
-        padding: 0 15px ;
+        padding: 3px 15px ;
     }
     .logo pre{
         color: #2A90D9;
@@ -181,7 +185,9 @@ form{
     .container {
         text-align: center;
     }
-    .choose-heading
+    .choose-heading h2{
+        margin-bottom: 20px ;
+    }
     .choose-heading p{
         font-size: 1rem;
         color: gray;
@@ -238,6 +244,9 @@ form{
     }
     .special-card img{
         width: 100%;
+    }
+    .special-info{
+        margin-top: 20px;
     }
     .special-info h3{
         font-size: 1.3rem;
