@@ -189,7 +189,7 @@ form{
         margin: 0 auto;
     }
     .choose-card{
-        grid-template-columns: repeat(auto-fit,minmax(170px,auto));
+        grid-template-columns: repeat(auto-fit,minmax(150px,auto));
         margin-top: 10vh ;
     }
     .c-card .card-img{
@@ -278,7 +278,7 @@ form{
         margin: 10px 0;
         }
     .re-card .re-img img{
-        width: 6vw;
+        width: 75px;
     }
     .review-cards .re-card p{
         font-size: .9rem;
