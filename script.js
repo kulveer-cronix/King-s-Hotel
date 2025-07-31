@@ -1,7 +1,9 @@
-  let click = document.querySelector('.bx-menu')
+  let x = document.getElementById('menu-icon')
   let Menu = document.querySelector(".menu-bar")
 
-  click.addEventListener(onclick=()=>{
-    click.classList.toggle('bx-x');
-    Menu.classList.toggle('active')
-  })
+ x.onclick = ()=>
+{
+    x.classList.toggle('bx-x');
+    Menu.classList.toggle('active');
+
+}
